@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+}
+.logo{
+    width: 230px;
+    height: 250px;
+    left: 45%;
+    top: 45%;
+    position: absolute;
+    transform: translate(-50px,-50px);
+    
+}
+.logo span{
+    width: 30px;
+    height: 250px;
+    background-color: red;
+    position: absolute;
+}
+.left{
+    left: 0;
+    top: 0;
+}
+.center1{
+    left: 0;
+    top: 0;
+    transform: skewX(22deg);
+    transform-origin: top left;
+}
+
+.center2{
+    right: 40%;
+    bottom: 0;
+    transform: skewX(158deg);
+    transform-origin: bottom right;
+    
+}
+.right{
+    bottom: 0;
+    left: 210px;
+}
